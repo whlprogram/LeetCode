@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1487605427 source:d:\code\c++_code\codeblocks\461hammingdistance\main.cpp
+	<iostream>
+	<string>
+
