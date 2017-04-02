@@ -38,16 +38,20 @@ public:
         getInOrderArray(InOrderArray, root->right);
     }
     int getMinimumDifference1(TreeNode* root) {//非递归解法
+        //res为最小差，pre为前节点值，BST没有负数，所以定义为-1
         int res = INT_MAX, pre = -1;
-        stack<TreeNode*> st;
+        //Stack<TreeNode*> InOrderArray = new Stack<>();
+        stack<TreeNode*> InOrderArray;//定义一个栈
         TreeNode *p = root;
-        while (p || !st.empty()) {
+        while (p || !InOrderArray.empty()) {//非空判断
             while (p) {
-                st.push(p);
+                InOrderArray.push(p);
                 p = p->left;
             }
-            p = st.top(); st.pop();
-            if (pre != -1) res = min(res, p->val - pre);
+            p = InOrderArray.top();//栈顶元素
+            InOrderArray.pop();//往下遍历栈
+            if (pre != -1)
+                res = min(res, p->val - pre);
             pre = p->val;
             p = p->right;
         }
