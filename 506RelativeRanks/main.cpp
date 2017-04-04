@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <numeric>
 #include <iterator>
 #include <string>
 using namespace std;
