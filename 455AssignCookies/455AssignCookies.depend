@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491318090 source:d:\code\leetcode\455assigncookies\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

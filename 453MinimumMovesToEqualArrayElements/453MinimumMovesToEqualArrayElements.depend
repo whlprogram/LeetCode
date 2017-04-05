@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1491391662 source:d:\code\leetcode\453minimummovestoequalarrayelements\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<algorithm>
+
