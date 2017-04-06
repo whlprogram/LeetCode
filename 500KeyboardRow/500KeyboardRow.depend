@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490892184 source:d:\code\leetcode\500keyboardrow\main.cpp
+	<iostream>
+	<vector>
+	<string>
+

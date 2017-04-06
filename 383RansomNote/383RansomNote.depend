@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491493757 source:d:\code\leetcode\383ransomnote\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
