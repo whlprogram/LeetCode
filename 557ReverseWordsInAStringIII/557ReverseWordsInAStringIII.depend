@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491754579 source:d:\code\leetcode\557reversewordsinastringiii\main.cpp
+	<iostream>
+	<string>
+
