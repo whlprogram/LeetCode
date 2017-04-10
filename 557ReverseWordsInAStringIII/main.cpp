@@ -5,7 +5,7 @@ class Solution {
 public:
     //思路：
     //1.英文句子分割成一个个单词
-    //2.将每个单词反转
+    //2.将每个单词反转 (以单词中间字母为中心，前后对称位置的字母交换位置)
     string reverseWords(string s) {
         string res = s;//复制英文句子
         int left = 0;//记录单词位置的左下标
