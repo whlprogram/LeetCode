@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491975610 source:d:\code\leetcode\387firstuniquecharacterinastring\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
