@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492706934 source:d:\code\leetcode\169majorityelement\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
