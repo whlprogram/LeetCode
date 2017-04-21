@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492778864 source:d:\code\leetcode\242validanagram\main.cpp
+	<iostream>
+	<string>
+	<algorithm>
+
