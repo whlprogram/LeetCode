@@ -59,28 +59,39 @@ public:
         return res;
     }
     int charToInt(char s){
-        if(s==' ') return 0;
+        /*if(s==' ') return 0;
         if(s=='I')  return 1;
         if(s=='V')  return 5;
         if(s=='X')  return 10;
         if(s=='L')  return 50;
         if(s=='C')  return 100;
         if(s=='D')  return 500;
-        if(s=='M')  return 1000;
+        if(s=='M')  return 1000;*/
+
+        switch (s) {
+        		case 'I': 	return 1;
+        		case 'V':	return 5;
+        		case 'X':	return 10;
+        		case 'L':	return 50;
+        		case 'C':	return 100;
+        		case 'D':	return 500;
+        		case 'M':	return 1000;
+        		default:	return 0;
+        	}
     }
     //52ms
     int romanToInt2(string s){//²Î¿¼ http://blog.csdn.net/nomasp/article/details/49154161
         unordered_map<char, int> map = {{'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C', 100}, {'D', 500}, {'M', 1000}};
-        int ret = 0;
-        for (int idx = 0; idx < s.size(); ++idx) {
-            if ((idx < s.size()-1) && (map[s[idx]] < map[s[idx+1]])) {
-                ret -= map[s[idx]];
+        int res = 0;
+        for (int i = 0; i < s.size(); ++i) {
+            if ((i < s.size()-1) && (map[s[i]] < map[s[i+1]])) {
+                res -= map[s[i]];
             }
             else {
-                ret += map[s[idx]];
+                res += map[s[i]];
             }
         }
-        return ret;
+        return res;
     }
 
 
@@ -90,6 +101,6 @@ int main()
     Solution a;
     string s;
     cin >> s;
-    cout << a.romanToInt2(s) << endl;
+    cout << a.romanToInt1(s) << endl;
     return 0;
 }
