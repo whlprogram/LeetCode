@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1493740664 source:d:\code\leetcode\566reshapethematrix\main.cpp
+	<iostream>
+	<vector>
+
