@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1493990780 source:d:\code\leetcode\350intersectionoftwoarraysii\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<unordered_map>
+
