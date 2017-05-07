@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1494158761 source:d:\code\leetcode\575distributecandies\main.cpp
+	<iostream>
+	<vector>
+	<unordered_map>
+	<assert.h>
+	<algorithm>
+
