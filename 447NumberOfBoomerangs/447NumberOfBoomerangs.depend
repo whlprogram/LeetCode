@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1494255858 source:d:\code\leetcode\447numberofboomerangs\main.cpp
+	<iostream>
+	<vector>
+	<unordered_map>
+
