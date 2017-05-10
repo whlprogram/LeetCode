@@ -7,9 +7,12 @@ class Solution { //原题链接: https://leetcode.com/problems/number-of-boomerangs/
 public:
     int numberOfBoomerangs(vector<pair<int, int>>& points) {
         int res = 0;
+        unordered_map <double, int> Hash; //#include <unordered_map>
         for(pair<int, int> p1 : points){
-            unordered_map <double, int> Hash;
+            Hash.clear();
             for(pair<int, int> p2 : points){
+                if (p1 == p2)
+                    continue;
                 //hypot(a, b) 求直角三角形斜边长函数(a, b为直角三角形的直角边) #include <math.h>
                 Hash[hypot(p1.first-p2.first, p1.second-p2.second)]++;
             }
@@ -23,6 +26,7 @@ public:
         }
         return res;
     }
+
 };
 int main()
 {
