@@ -68,6 +68,10 @@ public:
 };
 int main()
 {
+    //if(-1)//0Îªfalse ·Ç0Îªtrue
+    //    cout << "s = 1" << endl;
+    //else
+    //    cout << "s = 0" << endl;
     Solution a;
     string s;
     cin >> s;
