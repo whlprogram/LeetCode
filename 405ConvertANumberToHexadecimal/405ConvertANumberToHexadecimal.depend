@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1496136394 source:d:\code\leetcode\405convertanumbertohexadecimal\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+
