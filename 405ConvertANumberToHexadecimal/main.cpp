@@ -71,5 +71,8 @@ int main()
     Solution S;
     int num = -2147483648;
     cout << "num to Hexadecimal is " << S.toHex(num) << endl;
+
+    int a = 0xf;
+    cout << "num & 0xf = " << (num & 0xf) <<endl;
     return 0;
 }
