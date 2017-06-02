@@ -1,3 +1,5 @@
+//原题链接 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/#/description
+
 #include <iostream>
 #include <vector>
 
@@ -20,6 +22,8 @@ public:
 
     //算法解释 https://discuss.leetcode.com/topic/5863/sharing-my-simple-and-clear-c-solution
     //遍历数组，每次遍历时，找出该价格之前的最小价格，同时计算最小价格后的日期的能得到最大利润
+    //minPrice是从第0天到第i天的最低价格。 maxPro是从第0天到第i天可以获得的最大利润。
+    //在当前maxPro和prices[i] - minPrice之间获得较大的一个就是maxPro。
     int maxProfit1(vector<int> &prices) {//9ms
         int maxPro = 0;
         int minPrice = INT_MAX;
