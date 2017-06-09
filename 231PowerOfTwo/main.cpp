@@ -1,3 +1,5 @@
+//原题链接 https://leetcode.com/problems/remove-duplicates-from-sorted-list/#/description
+//题解 http://blog.csdn.net/whl_program/article/details/72972961
 #include <iostream>
 
 using namespace std;

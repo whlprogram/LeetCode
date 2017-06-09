@@ -1,3 +1,5 @@
+//原题链接 https://leetcode.com/problems/power-of-three/#/description
+//题解 http://blog.csdn.net/whl_program/article/details/72972793
 #include <iostream>
 
 using namespace std;
