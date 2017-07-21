@@ -20,6 +20,7 @@ public:
             return hasPathSum(root->left, sum-root->val) || hasPathSum(root->right, sum-root->val);
     }
 };
+
 int main()
 {
     cout << "Hello world!" << endl;
